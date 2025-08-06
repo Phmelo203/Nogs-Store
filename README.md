@@ -1,6 +1,9 @@
 # Nogs-Store
 Nogs Store Site de demonstração do carrossel interativo com três produtos Apple (Apple Watch, AirPods Max Pro, Vision Pro). Criado com HTML, CSS animado e JavaScript para navegação entre slides.
+
+
 🚀 Funcionalidades
+
 Navegação manual entre slides com os botões Anterior e Próximo
 
 Indicação visual do slide ativo via dots e contador numérico (01, 02, 03)
@@ -14,6 +17,7 @@ Texto do produto (nome, tag, descrição e botão) animando em cascata
 Responsivo e compatível com telas modernas
 
 📁 Estrutura de arquivos
+
 pgsql
 Copiar
 Editar
@@ -28,6 +32,7 @@ style.css – estilos visuais, animações, layout e responsividade
 script.js – lógica JavaScript para alternância entre slides e controle dos indicadores
 
 ⚙️ Como executar
+
 Clone ou baixe o repositório
 
 Abra o arquivo index.html em um navegador moderno (Chrome, Firefox, Edge)
@@ -37,6 +42,7 @@ Utilize os botões “Anterior” e “Próximo” para navegar
 O slide ativo exibirá animadamente o conteúdo com base nas classes .active
 
 📘 Detalhes técnicos
+
 HTML
 Cada slide (.item) contém:
 
@@ -51,6 +57,7 @@ A navegação está fora da lista de itens:
 <div class="indicators"> com .numbers e .dots sincronizados via JS
 
 CSS
+
 Layout com flexbox e posicionamento absoluto para os .item
 
 Uso de transform e opacity animados ao aplicar/remover .active
@@ -77,6 +84,7 @@ Adiciona .active ao novo item e ao dot correspondente
 Atualiza o número exibido (.numbers.textContent = '0' + (active + 1))
 
 🛠️ Personalização
+
 Adicionar autoplay (troca automática a cada X segundos com setInterval)
 
 Controlar com teclado (← e → para trocar slides)
@@ -86,13 +94,10 @@ Mobile friendly: adicionar media queries para telas menores
 Novos produtos: basta duplicar .item e .dot e ajustar JS
 
 📧 Contato
+
 Para dúvidas, sugestões ou melhorias, entre em contato:
 
-GitHub: perfil ou repositório
+GitHub:Phmelo2003
 
-E-mail: seu e-mail ou formulário de contato
+E-mail: ph.melo20031974@gmail.com
 
-📝 Licença
-Este projeto está licenciado sob a MIT License — sinta-se à vontade para usar, modificar e distribuir.
-
-Pronto! Esse README.documenta bem a estrutura, uso e técnicas do seu carrossel, e serve como base para apresentação ou repositório público. Se quiser incluir instalação, versão do projeto ou GIF de demonstração, posso te ajudar a completar também! 🚀
