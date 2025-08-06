@@ -2,6 +2,10 @@
 Nogs Store Site de demonstração do carrossel interativo com três produtos Apple (Apple Watch, AirPods Max Pro, Vision Pro). Criado com HTML, CSS animado e JavaScript para navegação entre slides.
 
 
+## 🖼️ Prévia do Site
+<img width="1908" height="923" alt="image" src="https://github.com/user-attachments/assets/045ee3b1-1386-4d40-936b-f04c2c137ef0" />
+
+
 🚀 Funcionalidades
 
 Navegação manual entre slides com os botões Anterior e Próximo
